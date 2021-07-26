@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="24802" started-at="2021-07-26T04:13:13 IST" finished-at="2021-07-26T04:13:38 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="24802" started-at="2021-07-26T04:13:13 IST" finished-at="2021-07-26T04:13:38 IST">
+      <class name="org.testing.TestScripts.WeatherReportUsingAPI">
+        <test-method status="PASS" signature="weatherReportByAPI()[pri:0, instance:org.testing.TestScripts.WeatherReportUsingAPI@43bd930a]" name="weatherReportByAPI" duration-ms="2728" started-at="2021-07-26T04:13:13 IST" finished-at="2021-07-26T04:13:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- weatherReportByAPI -->
+      </class> <!-- org.testing.TestScripts.WeatherReportUsingAPI -->
+      <class name="org.testing.TestScripts.FetchWeatherReportUsingUI">
+        <test-method status="PASS" signature="browserLaunchUrlHit()[pri:0, instance:org.testing.TestScripts.FetchWeatherReportUsingUI@51c8530f]" name="browserLaunchUrlHit" is-config="true" duration-ms="4208" started-at="2021-07-26T04:13:16 IST" finished-at="2021-07-26T04:13:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunchUrlHit -->
+        <test-method status="PASS" signature="retriveReport()[pri:0, instance:org.testing.TestScripts.FetchWeatherReportUsingUI@51c8530f]" name="retriveReport" duration-ms="3663" started-at="2021-07-26T04:13:20 IST" finished-at="2021-07-26T04:13:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- retriveReport -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:org.testing.TestScripts.FetchWeatherReportUsingUI@51c8530f]" name="closeBrowser" is-config="true" duration-ms="14160" started-at="2021-07-26T04:13:24 IST" finished-at="2021-07-26T04:13:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- org.testing.TestScripts.FetchWeatherReportUsingUI -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
