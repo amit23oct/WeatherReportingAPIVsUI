@@ -9,11 +9,19 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Suite</th></tr>
-<tr><td><a href="#t0">Test</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">24,802</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">47,280</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">org.testing.TestScripts.FetchWeatherReportUsingUI</td><td><a href="#m0">retriveReport</a></td><td rowspan="1">1627253000642</td><td rowspan="1">3663</td></tr><tr class="passedodd"><td rowspan="1">org.testing.TestScripts.WeatherReportUsingAPI</td><td><a href="#m1">weatherReportByAPI</a></td><td rowspan="1">1627252993699</td><td rowspan="1">2728</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">org.testing.TestScripts.FetchWeatherReportUsingUI</td><td><a href="#m0">retriveReport</a></td><td rowspan="1">1627732090480</td><td rowspan="1">10596</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">org.testing.TestScripts.WeatherReportUsingAPI</td><td><a href="#m1">weatherReportByAPI</a></td><td rowspan="1">1627732068105</td><td rowspan="1">5883</td></tr></tbody>
 </table>
-<h2>Test</h2><h3 id="m0">org.testing.TestScripts.FetchWeatherReportUsingUI#retriveReport</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test</h2><h3 id="m0">org.testing.TestScripts.FetchWeatherReportUsingUI#retriveReport</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NumberFormatException: For input string: &quot;&quot;
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:592)
+	at java.lang.Integer.parseInt(Integer.java:615)
+	at org.testing.TestScripts.FetchWeatherReportUsingUI.retriveReport(FetchWeatherReportUsingUI.java:33)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 12 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m1">org.testing.TestScripts.WeatherReportUsingAPI#weatherReportByAPI</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
